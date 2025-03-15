@@ -83,4 +83,21 @@ UPDATE Produto SET Preco_Produto = 399.99 where Cod_Produto = 3; -- monitor sams
 UPDATE Produto SET Preco_Produto = 2900.0 where Cod_Produto = 2;  -- notebook --
   
 UPDATE Produto SET Preco_Produto = 80.0 where Cod_Produto = 1;  -- camiseta --
+
+
+select * from produto; 
+
+-- atualização do peso -- 
+
+UPDATE produto SET Peso_Produto = 0.15 where Cod_Produto = 1;
+
+UPDATE produto SET Peso_Produto = 4.0 where Cod_Produto = 2;
+
+UPDATE produto SET Peso_Produto = 8.0 where Cod_Produto = 3;
+
+UPDATE produto SET Peso_Produto = 6.5 where Cod_Produto = 4;
+
+UPDATE produto SET Peso_Produto = 0.29 where Cod_Produto = 5;
+
+
   
